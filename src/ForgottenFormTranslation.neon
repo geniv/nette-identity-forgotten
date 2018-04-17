@@ -1,0 +1,11 @@
+forgotten-step1-form-email: Email
+forgotten-step1-form-email-required: toto pole je povinné
+forgotten-step1-form-email-rule-email: email musí být validní
+forgotten-step1-form-send: Ověřit
+
+forgotten-step2-form-password: Heslo
+forgotten-step2-form-password-required: toto pole je povinné
+forgotten-step2-form-password1: Heslo znovu
+forgotten-step2-form-password1-required: toto pole je povinné
+forgotten-step2-form-password1-equal: Hesla musí být stejná
+forgotten-step2-form-send: Resetovat
