@@ -46,6 +46,7 @@ presenter usage:
 ```php
 protected function createComponentIdentityForgottenStep1(ForgottenFormStep1 $forgottenFormStep1, ForgottenEmailNotifyEvent $emailNotifyEvent): ForgottenFormStep1
 {
+    //$forgottenFormStep1->setTemplatePath(__DIR__ . '/templates/ForgottenFormStep1.latte');
     $forgottenFormStep1->onSuccess[] = function (array $values) {
         $this->flashMessage('Step1!', 'info');
         $this->redirect('this');
@@ -59,6 +60,7 @@ protected function createComponentIdentityForgottenStep1(ForgottenFormStep1 $for
 
 protected function createComponentIdentityForgottenStep2(ForgottenFormStep2 $forgottenFormStep2): ForgottenFormStep2
 {
+    //$forgottenFormStep2->setTemplatePath(__DIR__ . '/templates/ForgottenFormStep2.latte');
     $forgottenFormStep2->onSuccess[] = function (array $values) {
         $this->flashMessage('Step2!', 'info');
         $this->redirect('Login:');
